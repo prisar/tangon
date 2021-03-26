@@ -96,7 +96,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Tool
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         toolbar.setNavigationIcon(R.mipmap.ic_launcher);
-        toolbar.setTitle("PicDemo");
+        toolbar.setTitle("Bangla Pic Edit");
         toolbar.inflateMenu(R.menu.base_toolbar_menu);
         toolbar.setOnMenuItemClickListener(this);
 

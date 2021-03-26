@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/action_filter"
-        android:title="滤镜"
+        android:title="ফিল্টার"
         />
     <item android:id="@+id/action_wrap"
-        android:title="人体变形"
+        android:title="মানুষের শরীর"
         />
     <item android:id="@+id/action_frame"
-        android:title="边框"
+        android:title="ফ্রেম"
         />
     <item android:id="@+id/action_draw"
-        android:title="涂鸦"
+        android:title="গ্রাফিতি"
         />
     <item android:id="@+id/action_mosaic"
-        android:title="马赛克"
+        android:title="মোজাইক"
         />
     <item android:id="@+id/action_crop"
-        android:title="剪切"
+        android:title="কাটা"
         />
     <item android:id="@+id/action_addwm"
-        android:title="添加水印"
+        android:title="জলছাপ"
         />
     <item android:id="@+id/action_enchance"
-        android:title="图像增强"
+        android:title="বৃদ্ধি"
         />
     <item android:id="@+id/action_rotate"
-        android:title="旋转"
+        android:title="স্পিন"
         />
     <item android:id="@+id/action_addtv"
-        android:title="添加文字"
+        android:title="টেক্সট"
         />
 </menu>
