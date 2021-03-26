@@ -2,13 +2,18 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
+    ndkVersion "20.1.5948944"
 
     defaultConfig {
         applicationId "com.prisar.banglaphotoedit"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        ndk {
+            moduleName "NativeFilter"
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
     }
 
     buildTypes {
@@ -20,8 +25,10 @@ android {
     sourceSets {
         main {
             res {
-                srcDirs 'src/main/res', 'src/main/res/menu'
+                srcDirs 'src/main/res', 'src/main/res/menu', 'src/main/res/color'
             }
+            jni.srcDirs = []
+            jniLibs.srcDir "src/main/libs"
         }
     }
 }
@@ -29,6 +36,6 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation project(':photoedit')
     implementation 'pub.devrel:easypermissions:3.0.0'
 }

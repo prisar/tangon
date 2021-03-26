@@ -1,9 +1,10 @@
-package view;
+package com.prisar.banglaphotoedit.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.widget.SeekBar;
 
 public class VerticalSeekBar extends androidx.appcompat.widget.AppCompatSeekBar {
     private int mLastProgress = 0;

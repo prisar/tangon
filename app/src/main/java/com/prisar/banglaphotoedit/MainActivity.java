@@ -308,12 +308,12 @@ public class MainActivity extends Activity implements View.OnClickListener, Tool
             return true;
         }
 
-//        switch (item.getItemId()) {
-//            case R.id.action_filter:
-//                intentClass = ImageFilterActivity.class;
-//                intentType = PHOTO_FILTER_WITH_DATA;
-//
-//                break;
+        switch (item.getItemId()) {
+            case R.id.action_filter:
+                intentClass = ImageFilterActivity.class;
+                intentType = PHOTO_FILTER_WITH_DATA;
+
+                break;
 //            case R.id.action_wrap:
 //                intentClass = WarpActivity.class;
 //                intentType = PHOTO_WARP_WITH_DATA;
@@ -350,11 +350,11 @@ public class MainActivity extends Activity implements View.OnClickListener, Tool
 //                intentClass = RevolveActivity.class;
 //                intentType = PHOTO_REVOLVE_WITH_DATA;
 //                break;
-//            default:
-//                intentClass = null;
-//                intentType = 0;
-//                break;
-//        }
+            default:
+                intentClass = null;
+                intentType = 0;
+                break;
+        }
 
         Toast.makeText(MainActivity.this, "Please click the test button", Toast.LENGTH_SHORT).show();
 
