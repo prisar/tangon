@@ -314,42 +314,42 @@ public class MainActivity extends Activity implements View.OnClickListener, Tool
                 intentType = PHOTO_FILTER_WITH_DATA;
 
                 break;
-//            case R.id.action_wrap:
-//                intentClass = WarpActivity.class;
-//                intentType = PHOTO_WARP_WITH_DATA;
-//                break;
-//            case R.id.action_crop:
-//                intentClass = ImageCropActivity.class;
-//                intentType = PHOTO_CROP_WITH_DATA;
-//                break;
-//            case R.id.action_draw:
-//                intentClass = DrawBaseActivity.class;
-//                intentType = PHOTO_DRAW_WITH_DATA;
-//                break;
-//            case R.id.action_frame:
-//                intentClass = PhotoFrameActivity.class;
-//                intentType = PHOTO_FRAME_WITH_DATA;
-//                break;
-//            case R.id.action_addtv:
-//                intentClass = AddTextActivity.class;
-//                intentType = PHOTO_ADD_TEXT_DATA;
-//                break;
-//            case R.id.action_addwm:
-//                intentClass = AddWatermarkActivity.class;
-//                intentType = PHOTO_ADD_WATERMARK_DATA;
-//                break;
-//            case R.id.action_mosaic:
-//                intentClass = MosaicActivity.class;
-//                intentType = PHOTO_MOSAIC_WITH_DATA;
-//                break;
-//            case R.id.action_enchance:
-//                intentClass = EnhanceActivity.class;
-//                intentType = PHOTO_ENHANCE_WITH_DATA;
-//                break;
-//            case R.id.action_rotate:
-//                intentClass = RevolveActivity.class;
-//                intentType = PHOTO_REVOLVE_WITH_DATA;
-//                break;
+            case R.id.action_wrap:
+                intentClass = WarpActivity.class;
+                intentType = PHOTO_WARP_WITH_DATA;
+                break;
+            case R.id.action_crop:
+                intentClass = ImageCropActivity.class;
+                intentType = PHOTO_CROP_WITH_DATA;
+                break;
+            case R.id.action_draw:
+                intentClass = DrawBaseActivity.class;
+                intentType = PHOTO_DRAW_WITH_DATA;
+                break;
+            case R.id.action_frame:
+                intentClass = PhotoFrameActivity.class;
+                intentType = PHOTO_FRAME_WITH_DATA;
+                break;
+            case R.id.action_addtv:
+                intentClass = AddTextActivity.class;
+                intentType = PHOTO_ADD_TEXT_DATA;
+                break;
+            case R.id.action_addwm:
+                intentClass = AddWatermarkActivity.class;
+                intentType = PHOTO_ADD_WATERMARK_DATA;
+                break;
+            case R.id.action_mosaic:
+                intentClass = MosaicActivity.class;
+                intentType = PHOTO_MOSAIC_WITH_DATA;
+                break;
+            case R.id.action_enchance:
+                intentClass = EnhanceActivity.class;
+                intentType = PHOTO_ENHANCE_WITH_DATA;
+                break;
+            case R.id.action_rotate:
+                intentClass = RevolveActivity.class;
+                intentType = PHOTO_REVOLVE_WITH_DATA;
+                break;
             default:
                 intentClass = null;
                 intentType = 0;

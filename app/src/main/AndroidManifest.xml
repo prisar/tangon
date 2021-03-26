@@ -6,10 +6,10 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <!-- 往sdcard中写入数据的权限 -->
+    <!-- sdcard -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <!-- 在sdcard中创建/删除文件的权限 -->
+    <!-- sdcard -->
 <!--    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>-->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,6 +31,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ImageFilterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WarpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PhotoFrameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DrawBaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MosaicActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ImageCropActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddWatermarkActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EnhanceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RevolveActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddTextActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
